@@ -1,0 +1,120 @@
+Trial Number,Controller,Scene,Participants
+0,No Robot,Overtake,1 
+1,No Robot,Overtake,3 
+2,No Robot,Overtake,2 
+3,No Robot,2v1,"1, 3 "
+4,No Robot,2v1,"1, 2 "
+5,No Robot,2v1,"3, 2 "
+6,No Robot,Intersection,"1, 3 "
+7,No Robot,Intersection,"1, 2 "
+8,No Robot,Intersection,"3, 2 "
+9,2,2v1,"1, 3 "
+10,Non-Reactive,2v1,"1, 3 "
+11,CADRL,2v1,"1, 3 "
+12,2,Overtake,1 
+13,NHTTC,Intersection,"1, 3 "
+14,NHTTC,Head-to-Head,1 
+15,Non-Reactive,Overtake,1 
+16,3,Head-to-Head,1 
+17,CADRL,Head-to-Head,1 
+18,NHTTC,2v1,"1, 3 "
+19,Non-Reactive,Head-to-Head,1 
+20,NHTTC,Overtake,1 
+21,2,Intersection,"1, 3 "
+22,Non-Reactive,Intersection,"1, 3 "
+23,CADRL,Overtake,1 
+24,CADRL,Intersection,"1, 3 "
+25,Non-Reactive,Intersection,"2, 3 "
+26,CADRL,Head-to-Head,2 
+27,CADRL,Intersection,"2, 1 "
+28,Non-Reactive,Intersection,"1, 2 "
+29,1,Intersection,"2, 3 "
+30,3,Intersection,"2, 1 "
+31,Non-Reactive,Head-to-Head,2 
+32,NHTTC,Head-to-Head,3 
+33,1,Intersection,"3, 2 "
+34,1,2v1,"3, 2 "
+35,NHTTC,2v1,"3, 2 "
+36,NHTTC,Intersection,"3, 2 "
+37,CADRL,Overtake,3 
+38,NHTTC,Overtake,3 
+39,CADRL,Intersection,"2, 3 "
+40,CADRL,Head-to-Head,3 
+41,NHTTC,Intersection,"3, 1 "
+42,CADRL,Intersection,"1, 2 "
+43,Non-Reactive,Overtake,2 
+44,Non-Reactive,Intersection,"2, 1 "
+45,Non-Reactive,Intersection,"3, 1 "
+46,2,Intersection,"3, 1 "
+47,3,2v1,"1, 2 "
+48,CADRL,Intersection,"3, 2 "
+49,Non-Reactive,Head-to-Head,3 
+50,1,Head-to-Head,2 
+51,2,Head-to-Head,3 
+52,CADRL,Intersection,"3, 1 "
+53,NHTTC,Intersection,"1, 2 "
+54,CADRL,2v1,"3, 2 "
+55,Non-Reactive,2v1,"1, 2 "
+56,NHTTC,Intersection,"2, 3 "
+57,CADRL,2v1,"1, 2 "
+58,Non-Reactive,Overtake,3 
+59,CADRL,Overtake,2 
+60,Non-Reactive,Intersection,"3, 2 "
+61,NHTTC,Head-to-Head,2 
+62,NHTTC,Overtake,2 
+63,NHTTC,Intersection,"2, 1 "
+64,2,Overtake,3 
+65,3,Intersection,"1, 2 "
+66,Non-Reactive,2v1,"3, 2 "
+67,NHTTC,2v1,"1, 2 "
+68,3,Overtake,2 
+69,No Robot,3v1,"1, 3, 2 "
+70,CADRL,3v1 Opposite,"1, 3, 2 "
+71,NHTTC,3v1 Opposite,"1, 3, 2 "
+72,NHTTC,3v1 Adjacent,"1, 3, 2 "
+73,Non-Reactive,3v1 Adjacent,"1, 3, 2 "
+74,Non-Reactive,3v1 Opposite,"1, 3, 2 "
+75,CADRL,3v1 Adjacent,"1, 3, 2 "
+76,NHTTC,3v1 90,"1, 3, 2 "
+77,CADRL,3v1 90,"1, 3, 2 "
+78,Non-Reactive,3v1 90,"1, 3, 2 "
+79,No Robot,3v1,"3, 2, 1 "
+80,Non-Reactive,3v1 Opposite,"3, 2, 1 "
+81,CADRL,3v1 90,"3, 2, 1 "
+82,NHTTC,3v1 Opposite,"3, 2, 1 "
+83,NHTTC,3v1 Adjacent,"3, 2, 1 "
+84,NHTTC,3v1 90,"3, 2, 1 "
+85,CADRL,3v1 Opposite,"3, 2, 1 "
+86,CADRL,3v1 Adjacent,"3, 2, 1 "
+87,Non-Reactive,3v1 Adjacent,"3, 2, 1 "
+88,Non-Reactive,3v1 90,"3, 2, 1 "
+89,No Robot,3v1,"3, 1, 2 "
+90,Non-Reactive,3v1 Adjacent,"3, 1, 2 "
+91,NHTTC,3v1 90,"3, 1, 2 "
+92,CADRL,3v1 Adjacent,"3, 1, 2 "
+93,NHTTC,3v1 Opposite,"3, 1, 2 "
+94,Non-Reactive,3v1 Opposite,"3, 1, 2 "
+95,CADRL,3v1 90,"3, 1, 2 "
+96,CADRL,3v1 Opposite,"3, 1, 2 "
+97,NHTTC,3v1 Adjacent,"3, 1, 2 "
+98,Non-Reactive,3v1 90,"3, 1, 2 "
+99,No Robot,3v1,"1, 2, 3 "
+100,CADRL,3v1 90,"1, 2, 3 "
+101,CADRL,3v1 Adjacent,"1, 2, 3 "
+102,NHTTC,3v1 Opposite,"1, 2, 3 "
+103,NHTTC,3v1 90,"1, 2, 3 "
+104,Non-Reactive,3v1 90,"1, 2, 3 "
+105,Non-Reactive,3v1 Opposite,"1, 2, 3 "
+106,NHTTC,3v1 Adjacent,"1, 2, 3 "
+107,Non-Reactive,3v1 Adjacent,"1, 2, 3 "
+108,CADRL,3v1 Opposite,"1, 2, 3 "
+109,No Robot,3v1,"2, 3, 1 "
+110,NHTTC,3v1 Opposite,"2, 3, 1 "
+111,CADRL,3v1 Adjacent,"2, 3, 1 "
+112,NHTTC,3v1 Adjacent,"2, 3, 1 "
+113,CADRL,3v1 Opposite,"2, 3, 1 "
+114,Non-Reactive,3v1 Opposite,"2, 3, 1 "
+115,Non-Reactive,3v1 Adjacent,"2, 3, 1 "
+116,CADRL,3v1 90,"2, 3, 1 "
+117,NHTTC,3v1 90,"2, 3, 1 "
+118,Non-Reactive,3v1 90,"2, 3, 1 "
