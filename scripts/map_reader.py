@@ -59,8 +59,5 @@ class ZuckerDatasetMap:
 if __name__ == "__main__":
     zdm = ZuckerDatasetMap("./data/map.csv", "./data")
     print(
-        zdm.get_by_id(-1)
+        zdm.get_by(idx=3, scene=Scene.INTERSECTION, controller=Controller.CADRL)
     )
-    # print(
-    #     zdm.get_by(scene=Scene.ADJACENT, controller=Controller.CADRL)
-    # )

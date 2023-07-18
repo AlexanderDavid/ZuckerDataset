@@ -19,7 +19,9 @@ To facilitate further analysis of our dataset, we provide a simple Python class 
 
 ```python3
 zdm = ZuckerDatasetMap("./data/map.csv", "./data")
-print(zdm.get_by(scene=Scene.INTERSECTION, controller=Controller.CADRL))
+print(
+    zdm.get_by(idx=3, scene=Scene.INTERSECTION, controller=Controller.CADRL)
+)
 ```
 
 This returns a `frozenset` containing the paths of the `.csv` files. The ID of the agent is the first column and is consistent across the dataset; the robot always has ID -1.
