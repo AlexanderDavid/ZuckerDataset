@@ -32,6 +32,13 @@ class ZuckerDatasetMap:
         trial_numbers = self._map[self._map.Scene == scene.value]["Trial Number"].values
         return frozenset([x for x in self._files if int(x.stem.split("_")[-1]) in trial_numbers])
 
+    def get_by_id(self, idx: int) -> FrozenSet[Path]:
+        return frozenset([x for x in self._files if self.__id_in(idx, x)])
+
+    def __id_in(self, idx: int, filename: Path) -> bool:
+        df = pd.read_csv(filename)
+        return idx in pd.unique(df[df.columns[0]])
+
     def get_by(self, controller: Optional[Controller]=None, scene: Optional[Scene]=None) -> FrozenSet[Path]:
         matches = []
         if controller:
@@ -47,5 +54,8 @@ class ZuckerDatasetMap:
 if __name__ == "__main__":
     zdm = ZuckerDatasetMap("./data/map.csv", "./data")
     print(
-        zdm.get_by(scene=Scene.ADJACENT, controller=Controller.CADRL)
+        zdm.get_by_id(-1)
     )
+    # print(
+    #     zdm.get_by(scene=Scene.ADJACENT, controller=Controller.CADRL)
+    # )
