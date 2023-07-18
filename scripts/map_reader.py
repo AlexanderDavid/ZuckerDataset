@@ -39,17 +39,22 @@ class ZuckerDatasetMap:
         df = pd.read_csv(filename)
         return idx in pd.unique(df[df.columns[0]])
 
-    def get_by(self, controller: Optional[Controller]=None, scene: Optional[Scene]=None) -> FrozenSet[Path]:
+    def get_by(self, controller: Optional[Controller]=None, scene: Optional[Scene]=None, idx: Optional[int]=None) -> FrozenSet[Path]:
         matches = []
         if controller:
             matches.append(self.get_by_controller(controller))
         if scene:
             matches.append(self.get_by_scene(scene))
+        if idx:
+            matches.append(self.get_by_id(idx))
 
         if len(matches) == 1:
             return matches[0] 
 
-        return matches[0] & matches[1]
+        if len(matches) == 2:
+            return matches[0] & matches[1]
+
+        return matches[0] & matches[1] & matches[2]
 
 if __name__ == "__main__":
     zdm = ZuckerDatasetMap("./data/map.csv", "./data")
