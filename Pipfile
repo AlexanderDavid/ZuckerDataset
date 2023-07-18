@@ -8,6 +8,10 @@ pandas = "*"
 
 [dev-packages]
 ipykernel = "*"
+ardi = {editable = true, git = "http://github.com/AlexanderDavid/ardi.git"}
+matplotlib = "*"
+scipy = "*"
+tslearn = "*"
 
 [requires]
 python_version = "3.11"
