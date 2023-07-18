@@ -1,5 +1,16 @@
 # A Study in Zucker: Insights on Human-Robot Interaction
-This repository holds the processed human-robot interaction data recorded at Clemson's Zucker Graduate Education Center in May 2020. For the associated analysis, see our paper on ArXiv: [A Study in Zucker: Insights on Human-Robot Interaction](https://arxiv.org/abs/2307.08668)
+This repository holds the processed human-robot interaction data recorded at Clemson's Zucker Graduate Education Center in May 2020. For the associated analysis, see our paper on ArXiv: [A Study in Zucker: Insights on Human-Robot Interaction](https://arxiv.org/abs/2307.08668). If you use this dataset or find it useful please cite it as below:
+
+```bibtex
+@misc{day2023zucker,
+      title={A Study in Zucker: Insights on Human-Robot Interactions}, 
+      author={Alex Day and Ioannis Karamouzas},
+      year={2023},
+      eprint={2307.08668},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
 
 This dataset contains two different agent types (robot and human) in several scenarios. The robot switched between 3 different motion controllers (Linear, NHTTC, and CADRL) over multiple different scenarios with different permutations of human agents. There are also scenes without the robot for a baseline.
 
