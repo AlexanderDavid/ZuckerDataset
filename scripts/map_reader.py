@@ -32,6 +32,9 @@ class ZuckerDatasetMap:
         trial_numbers = self._map[self._map.Scene == scene.value]["Trial Number"].values
         return frozenset([x for x in self._files if int(x.stem.split("_")[-1]) in trial_numbers])
 
+    def get_by_ids(self, idx: List[int]) -> FrozenSet[Path]:
+        pass
+
     def get_by_id(self, idx: int) -> FrozenSet[Path]:
         return frozenset([x for x in self._files if self.__id_in(idx, x)])
 
