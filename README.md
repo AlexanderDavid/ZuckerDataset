@@ -11,6 +11,13 @@ This repository holds the processed human-robot interaction data recorded at Cle
       primaryClass={cs.RO}
 }
 ```
+|        Perpendicular           |         Adjacent          |          Opposite         |  Intersection |
+| ------------------------------ | ------------------------- | ------------------------- | ------------- |
+| ![](figures/perpendicular.gif) | ![](figures/adjacent.gif) | ![](figures/opposite.gif) | ![](figures/intersection.gif)
+
+|         Overtake               |       Two vs. One         |       Head-to-Head          |
+| ------------------------------ | ------------------------- | --------------------------- |
+| ![](figures/overtake.gif)  | ![](figures/twovsone.gif) | ![](figures/headtohead.gif) |
 
 This dataset contains two different agent types (robot and human) in several scenarios. The robot switched between 3 different motion controllers (Linear, NHTTC, and CADRL) over multiple different scenarios with different permutations of human agents. There are also scenes without the robot for a baseline.
 
