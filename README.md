@@ -1,6 +1,9 @@
 # A Study in Zucker: Insights on Human-Robot Interaction
 
-This repository holds the processed human-robot interaction data recorded at Clemson's Zucker Graduate Education Center in May 2022. For the associated analysis, please look at our paper on ArXiv: [A Study in Zucker: Insights on Human-Robot Interaction](https://arxiv.org/abs/2307.08668). 
+This repository holds the processed human-robot interaction data recorded at Clemson's Zucker Graduate Education Center in May 2022. For the associated analysis, please look at our paper on ArXiv: [A Study in Zucker: Insights on Human-Robot Interaction](https://arxiv.org/abs/2307.08668). We also refer to the following video for videos of our experiment:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/42GYo5Aqrxc/0.jpg)](https://www.youtube.com/watch?v=42GYo5Aqrxc)
+
 
 **Abstract** -- In recent years there has been a large focus on how robots can operate in human populated environments. In this paper, we focus on interactions between humans and small indoor robots and introduce a new human-robot interaction (HRI) dataset. The analysis of the recorded experiments shows that anticipatory and non-reactive robot controllers impose similar constraints to humans' safety and efficiency. Additionally, we found that current state-of-the-art models for human trajectory prediction can adequately extend to indoor HRI settings. Finally, we show that humans respond differently in shared and homogeneous environments when collisions are imminent, since interacting with small differential drives can only cause a finite level of social discomfort as compared to human-human interactions. 
 
