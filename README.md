@@ -30,6 +30,10 @@ print(
 
 This returns a `frozenset` containing the paths of the `.csv` files. The ID of the agent is the first column and is consistent across the dataset; the robot always has ID -1.
 
+## Models
+
+We also release both the pretrained models and validation data used for our paper. This is the data we recorded resampled at a slower framerate and in the format that is canonical for both Trajectron++ and SocialVAE.
+
 ## Citation
 If you use this dataset or find it useful, please cite it as below:
 ```bibtex
